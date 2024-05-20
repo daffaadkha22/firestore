@@ -42,7 +42,7 @@ export default function App() {
         }));
         setNotesList(notesData);
       } catch (error) {
-        console.log('Error fetching data: test ' + error.message);
+        console.log('Error fetching data: ' + error.message);
       }
     };
 
